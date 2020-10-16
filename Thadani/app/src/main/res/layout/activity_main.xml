@@ -15,16 +15,16 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="145dp"
-        android:layout_height="42dp"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="250dp"
         app:srcCompat="@drawable/nt" />
 
     <EditText
         android:id="@+id/nickname"
-        android:layout_width="240dp"
-        android:layout_height="41dp"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="300dp"
         android:background="@drawable/name"
@@ -33,5 +33,14 @@
         android:inputType="textPersonName"
         android:padding="9dp"
         android:textSize="24dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="269dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/buttonxml"
+        android:background="@drawable/button"  />
 
 </RelativeLayout>

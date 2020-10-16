@@ -6,35 +6,31 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 
-public class MainActivity2 extends AppCompatActivity {
-
+public class test extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
-        ArrayList<quiz> ques = new ArrayList<>();
-        quiz p1 = new quiz(R.drawable.waterdrops, R.drawable.wat222,"level water");
-        quiz p2 = new quiz(R.drawable.firewater, R.drawable.haf,"level half");
-        quiz p3 = new quiz(R.drawable.fire, R.drawable.fi,"level fire");
+        setContentView(R.layout.activity_test);
+        ArrayList<qiz> question = new ArrayList<>();
+        qiz n1 = new qiz(R.drawable.waterdrops, R.drawable.wat222);
+        qiz n2 = new qiz(R.drawable.firewater, R.drawable.haf);
+        qiz n3 = new qiz(R.drawable.fire, R.drawable.fi);
 
-        ques.add(p1);
-        ques.add(p2);
-        ques.add(p3);
-
-
+        question.add(n1);
+        question.add(n2);
+        question.add(n3);
         RecyclerView rv = findViewById(R.id.rv);
         rv.setHasFixedSize(true);
         RecyclerView.LayoutManager lm = new LinearLayoutManager(this);
         rv.setLayoutManager(lm);
 
         rv.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
-        quizAdapter adapter = new quizAdapter(ques, this);
+        qizAdapter adapter= new qizAdapter(question,this);
         rv.setAdapter(adapter);
     }
-}
 
+}

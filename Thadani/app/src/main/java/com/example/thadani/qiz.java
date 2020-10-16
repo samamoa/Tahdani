@@ -1,16 +1,12 @@
 package com.example.thadani;
 
-public class quiz {
-
-
+public class qiz {
     private int image;
     private int imageTwo;
-    private String level;
 
-    public quiz(int image, int imageTwo,String level) {
+    public qiz(int image, int imageTwo) {
         this.image = image;
         this.imageTwo = imageTwo;
-        this.level= level;
     }
 
     public int getImage() {
@@ -28,13 +24,4 @@ public class quiz {
     public void setImageTwo(int imageTwo) {
         this.imageTwo = imageTwo;
     }
-
-    public String getLevel() {
-        return level;
-    }
-
-    public void setLevel(String level) {
-        this.level = level;
-    }
 }
-
