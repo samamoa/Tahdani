@@ -6,11 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.logging.Level;
 
 public class qizAdapter extends RecyclerView.Adapter {
     ArrayList<qiz> pArray;
@@ -30,18 +32,28 @@ public class qizAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         ((ViewHolder)holder).img.setImageResource(pArray.get(position).getImage());
         ((ViewHolder)holder).imgTwo.setImageResource(pArray.get(position).getImageTwo());
+        ((ViewHolder)holder).levelTwo.setText(pArray.get(position).getlevelTwo()):
         ((ViewHolder)holder).v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(context,MainActivity5.class);
-                context.startActivity(i);
+                Intent n;
+                if (pArray.get(position).getlevelTwo()=="level one");{
+                    n= new Intent(context,MainActivity10.class);
+                }
+                else if(pArray.get(position).getlevelTwo()=="level two");{
+                    n=new Intent(context,MainActivity11.class);
+                }
+                else{
+                    n= new Intent(context,MainActivity12.class);
+                }
+                context.startActivity(n);
             }
         });
-
     }
+
 
     @Override
     public int getItemCount() {
@@ -52,6 +64,7 @@ public class qizAdapter extends RecyclerView.Adapter {
         public ImageView img;
         public ImageView imgTwo;
         public View v;
+        public TextView levelTwo;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

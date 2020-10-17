@@ -7,11 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.Objects;
+import java.util.logging.Level;
+
 public class quizAdapter extends RecyclerView.Adapter {
       ArrayList<quiz> pArray;
     Context context;
@@ -31,13 +35,23 @@ public class quizAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         ((ViewHolder)holder).img.setImageResource(pArray.get(position).getImage());
         ((ViewHolder)holder).imgTwo.setImageResource(pArray.get(position).getImageTwo());
+        ((ViewHolder)holder).lv.setText(pArray.get(position).getLevel());
         ((ViewHolder)holder).v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(context,MainActivity5.class);
+                Intent i;
+                if (pArray.get(position).getLevel()=="level water"){
+                    i=new Intent(context,MainActivity7.class);
+                }
+                else if (pArray.get(position).getLevel()=="level half"){
+                    i=new Intent(context,MainActivity8.class);
+                }
+                else {
+                    i=new Intent(context,MainActivity9.class);
+                }
                 context.startActivity(i);
             }
         });
@@ -53,12 +67,14 @@ public static class ViewHolder extends RecyclerView.ViewHolder{
     public ImageView img;
     public ImageView imgTwo;
     public View v;
+    public TextView lv;
 
     public ViewHolder(@NonNull View itemView) {
         super(itemView);
       v=itemView ;
         img=itemView.findViewById(R.id.photo);
         imgTwo=itemView.findViewById(R.id.word);
+
     }
 }
 }
