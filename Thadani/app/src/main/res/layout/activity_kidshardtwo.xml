@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kidshardtwo">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/kidshardtwo" />
+
+    <ImageButton
+        android:id="@+id/wronganswer"
+        android:layout_width="241dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="430dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/answerkidshardfive" />
+
+    <ImageButton
+        android:id="@+id/yeah"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginBottom="317dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/answerkidshardthree" />
+
+    <ImageButton
+        android:id="@+id/wronganswer2"
+        android:layout_width="163dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="214dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/answerkidshardfour" />
+
+    <ImageButton
+        android:id="@+id/helpbutton2"
+        android:layout_width="230dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-33dp"
+        android:layout_marginBottom="205dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/help" />
+</RelativeLayout>

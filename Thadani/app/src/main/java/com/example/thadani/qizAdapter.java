@@ -35,19 +35,19 @@ public class qizAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         ((ViewHolder)holder).img.setImageResource(pArray.get(position).getImage());
         ((ViewHolder)holder).imgTwo.setImageResource(pArray.get(position).getImageTwo());
-        ((ViewHolder)holder).levelTwo.setText(pArray.get(position).getlevelTwo()):
+        ((ViewHolder)holder).levelTwo.setText(pArray.get(position).getLevelTwo());
         ((ViewHolder)holder).v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent n;
-                if (pArray.get(position).getlevelTwo()=="level one");{
-                    n= new Intent(context,MainActivity10.class);
+               if (pArray.get(position).getLevelTwo()=="level one"){
+                    n= new Intent(context,MainActivity8.class);
                 }
-                else if(pArray.get(position).getlevelTwo()=="level two");{
-                    n=new Intent(context,MainActivity11.class);
+                else if(pArray.get(position).getLevelTwo()=="level two"){
+                    n=new Intent(context,MainActivity9.class);
                 }
                 else{
-                    n= new Intent(context,MainActivity12.class);
+                    n= new Intent(context,MainActivity10.class);
                 }
                 context.startActivity(n);
             }
@@ -71,6 +71,7 @@ public class qizAdapter extends RecyclerView.Adapter {
             v=itemView ;
             img=itemView.findViewById(R.id.photo);
             imgTwo=itemView.findViewById(R.id.word);
+            levelTwo=itemView.findViewById(R.id.textView3);
         }
     }
 }

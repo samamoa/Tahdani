@@ -44,13 +44,13 @@ public class quizAdapter extends RecyclerView.Adapter {
             public void onClick(View view) {
                 Intent i;
                 if (pArray.get(position).getLevel()=="level water"){
-                    i=new Intent(context,MainActivity7.class);
+                    i=new Intent(context,MainActivity5.class);
                 }
                 else if (pArray.get(position).getLevel()=="level half"){
-                    i=new Intent(context,MainActivity8.class);
+                    i=new Intent(context,MainActivity6.class);
                 }
                 else {
-                    i=new Intent(context,MainActivity9.class);
+                    i=new Intent(context,MainActivity7.class);
                 }
                 context.startActivity(i);
             }
@@ -74,6 +74,7 @@ public static class ViewHolder extends RecyclerView.ViewHolder{
       v=itemView ;
         img=itemView.findViewById(R.id.photo);
         imgTwo=itemView.findViewById(R.id.word);
+        lv=itemView.findViewById(R.id.textView2);
 
     }
 }

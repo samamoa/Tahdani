@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".kidshalftwo">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="559dp"
+        app:srcCompat="@drawable/kidshalftwo" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="224dp"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="-2dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/kidsanswerfive" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="290dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="318dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/kidsanswerfour" />
+
+    <ImageButton
+        android:id="@+id/twentyone"
+        android:layout_width="218dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="216dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/kidsanswerthree" />
+</RelativeLayout>

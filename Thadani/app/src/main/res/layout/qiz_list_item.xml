@@ -29,4 +29,14 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/wat222" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
 </RelativeLayout>

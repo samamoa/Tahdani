@@ -7,22 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MainActivity7 extends AppCompatActivity {
+public class tryagain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main7);
-        ImageButton startthree =findViewById(R.id.startbutton3);
-        startthree.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_tryagain);
+        ImageButton oops = findViewById(R.id.oops);
+        oops.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent o=new Intent(MainActivity7.this,kidshard.class);
-                startActivity(o);
+                Intent p = new Intent(tryagain.this,gameover.class);
+                startActivity(p);
             }
         });
-
-
-
     }
 }

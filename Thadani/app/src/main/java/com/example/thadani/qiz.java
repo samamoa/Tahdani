@@ -5,14 +5,12 @@ import java.util.logging.Level;
 public class qiz {
     private int image;
     private int imageTwo;
-    private String LevelTwo;
+   private   String levelTwo;
 
-
-    public qiz(int image, int imageTwo,String LevelTwo) {
+    public qiz(int image, int imageTwo, String levelTwo) {
         this.image = image;
         this.imageTwo = imageTwo;
-        this.LevelTwo= LevelTwo;
-
+        this.levelTwo = levelTwo;
     }
 
     public int getImage() {
@@ -31,11 +29,11 @@ public class qiz {
         this.imageTwo = imageTwo;
     }
 
-    public String getLevel() {
-        return LevelTwo;
+    public String getLevelTwo() {
+        return levelTwo;
     }
 
-    public void setLevel(String level) {
-        LevelTwo = LevelTwo;
+    public void setLevelTwo(String levelTwo) {
+        this.levelTwo = levelTwo;
     }
 }

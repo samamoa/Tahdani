@@ -16,9 +16,9 @@ public class test extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         ArrayList<qiz> question = new ArrayList<>();
-        qiz n1 = new qiz(R.drawable.waterdrops, R.drawable.wat222);
-        qiz n2 = new qiz(R.drawable.firewater, R.drawable.haf);
-        qiz n3 = new qiz(R.drawable.fire, R.drawable.fi);
+        qiz n1 = new qiz(R.drawable.waterdrops, R.drawable.wat222,"level one");
+        qiz n2 = new qiz(R.drawable.firewater, R.drawable.haf,"level two");
+        qiz n3 = new qiz(R.drawable.fire, R.drawable.fi,"level three");
 
         question.add(n1);
         question.add(n2);
