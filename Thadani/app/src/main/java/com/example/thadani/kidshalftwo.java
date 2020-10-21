@@ -18,6 +18,7 @@ public class kidshalftwo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent p = new Intent(kidshalftwo.this, bravo.class);
+                p.putExtra("level","half");
                 startActivity(p);
             }
         });
@@ -29,15 +30,6 @@ public class kidshalftwo extends AppCompatActivity {
                 startActivity(m);
             }
         });
-        ImageButton buttonf =findViewById(R.id.twentyone);
-        buttonf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent itwo =new Intent(kidshalftwo.this,gameover.class);
-                startActivity(itwo);
-            }
-        });
-
 
 
     }

@@ -29,14 +29,6 @@ public class kidshalf extends AppCompatActivity {
                 startActivity(u);
             }
         });
-        ImageButton wrongtwo =findViewById(R.id.wrongbutton2);
-        wrongtwo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent m=new Intent(kidshalf.this,gameover.class);
-                startActivity(m);
-            }
-        });
 
 
 

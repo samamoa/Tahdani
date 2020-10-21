@@ -18,6 +18,7 @@ public class watertwo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent o=new Intent(watertwo.this,bravo.class);
+                o.putExtra("level","water two");
                 startActivity(o);
             }
         });

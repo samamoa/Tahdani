@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -43,16 +44,17 @@ public class quizAdapter extends RecyclerView.Adapter {
             @Override
             public void onClick(View view) {
                 Intent i;
-                if (pArray.get(position).getLevel()=="level water"){
-                    i=new Intent(context,MainActivity5.class);
+                if (pArray.get(position).getLevel() == "level water") {
+                    i = new Intent(context, MainActivity5.class);
+                    context.startActivity(i);
+                } else if (pArray.get(position).getLevel() == "level half" ) {
+
+                    i = new Intent(context, MainActivity6.class);
+                    context.startActivity(i);
+                } else if (pArray.get(position).getLevel() == "level fire" ) {
+                    i = new Intent(context, MainActivity7.class);
+                    context.startActivity(i);
                 }
-                else if (pArray.get(position).getLevel()=="level half"){
-                    i=new Intent(context,MainActivity6.class);
-                }
-                else {
-                    i=new Intent(context,MainActivity7.class);
-                }
-                context.startActivity(i);
             }
         });
 

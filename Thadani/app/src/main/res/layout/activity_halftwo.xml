@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
     tools:context=".halftwo">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/yyyyes"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/halftwo" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/halffffff" />
+
+    <ImageButton
+        android:id="@+id/nooooooo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/answer" />
+</RelativeLayout>
