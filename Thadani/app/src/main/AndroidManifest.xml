@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tryagain"></activity>
+        <activity android:name=".halftwo"></activity>
+        <activity android:name=".half" />
+        <activity android:name=".watertwo" />
+        <activity android:name=".water" />
         <activity android:name=".hardanswertwo" />
         <activity android:name=".nexttimebutton" />
         <activity android:name=".answerhard" />

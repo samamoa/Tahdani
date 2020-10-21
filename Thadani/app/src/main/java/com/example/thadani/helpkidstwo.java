@@ -25,7 +25,7 @@ public class helpkidstwo extends AppCompatActivity {
         tryagain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(helpkidstwo.this, tryagain.class);
+                Intent p = new Intent(helpkidstwo.this,nexttimebutton.class);
                 startActivity(p);
             }
         });
