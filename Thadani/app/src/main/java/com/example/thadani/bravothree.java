@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class gameover extends AppCompatActivity {
+public class bravothree extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gameover);
-        ImageButton nextpage=findViewById(R.id.gameover);
+        setContentView(R.layout.activity_bravothree);
+        ImageButton nextpage=findViewById(R.id.next2);
         nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i;
-                i = new Intent(gameover.this, MainActivity4.class);
+                i = new Intent(bravothree.this,half.class);
                 startActivity(i);
             }
         });

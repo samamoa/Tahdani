@@ -13,12 +13,12 @@ public class tryagain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tryagain);
-        ImageButton oops = findViewById(R.id.oops);
-        oops.setOnClickListener(new View.OnClickListener() {
+        ImageButton o =findViewById(R.id.oops);
+        o.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(tryagain.this,gameover.class);
-                startActivity(p);
+                Intent m=new Intent(tryagain.this,gameover.class);
+                startActivity(m);
             }
         });
     }

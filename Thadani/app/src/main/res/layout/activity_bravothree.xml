@@ -4,11 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gameover">
-
+    tools:context=".bravothree">
     <ImageButton
-        android:id="@+id/gameover"
+        android:id="@+id/next2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/over" />
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/nnnnnnnnnext" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/bravo" />
+
 </RelativeLayout>

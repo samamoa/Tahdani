@@ -13,8 +13,8 @@ public class half extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_half);
-        ImageButton half =findViewById(R.id.half);
-        half.setOnClickListener(new View.OnClickListener() {
+        ImageButton right =findViewById(R.id.half);
+        right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(half.this,halftwo.class);

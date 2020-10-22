@@ -17,7 +17,7 @@ public class hardanswertwo extends AppCompatActivity {
         help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(hardanswertwo.this, bravo.class);
+                Intent p = new Intent(hardanswertwo.this,endbravo .class);
                 startActivity(p);
             }
         });

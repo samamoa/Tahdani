@@ -18,7 +18,6 @@ public class kidswatertwoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent p = new Intent(kidswatertwoActivity.this, bravo.class);
-                p.putExtra("level","water");
                 startActivity(p);
             }
         });

@@ -4,18 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tryagain">
+    tools:context=".answertwo">
+
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/imageView31"
         android:layout_width="match_parent"
-        android:layout_height="636dp"
+        android:layout_height="579dp"
         app:srcCompat="@drawable/frame" />
 
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/big" />
+
     <ImageButton
-        android:id="@+id/oops"
+        android:id="@+id/next5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/nexttime" />
-
+        app:srcCompat="@drawable/gotothenext" />
 </RelativeLayout>

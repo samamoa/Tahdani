@@ -7,44 +7,43 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class kidshardtwo extends AppCompatActivity {
+public class hardtwo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kidshardtwo);
-        ImageButton help =findViewById(R.id.helpbutton2);
+        setContentView(R.layout.activity_hardtwo);
+        ImageButton help =findViewById(R.id.helpbutton4);
         help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m=new Intent(kidshardtwo.this,helpkidstwo.class);
+                Intent m=new Intent(hardtwo.this,helptwwwo.class);
                 startActivity(m);
             }
         });
-        ImageButton hard =findViewById(R.id.yeah);
+        ImageButton hard =findViewById(R.id.rightbutton5);
         hard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(kidshardtwo.this,endbravo.class);
+                Intent i=new Intent(hardtwo.this,endbravo.class);
                 startActivity(i);
             }
         });
-        ImageButton wrong =findViewById(R.id.wronganswer);
+        ImageButton wrong =findViewById(R.id.wrongbutton7);
         wrong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent u=new Intent(kidshardtwo.this,gameover.class);
+                Intent u=new Intent(hardtwo.this,gameover.class);
                 startActivity(u);
             }
         });
-        ImageButton wrongtwo =findViewById(R.id.wronganswer2);
+        ImageButton wrongtwo =findViewById(R.id.hardbutton3);
         wrongtwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m=new Intent(kidshardtwo.this,gameover.class);
+                Intent m=new Intent(hardtwo.this,gameover.class);
                 startActivity(m);
             }
         });
-
     }
 }

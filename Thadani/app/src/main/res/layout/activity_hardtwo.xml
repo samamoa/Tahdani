@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hardtwo">
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dodah" />
+
+    <ImageButton
+        android:id="@+id/rightbutton5"
+        android:layout_width="386dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/big" />
+
+    <ImageButton
+        android:id="@+id/wrongbutton7"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/fishtwo" />
+
+    <ImageButton
+        android:id="@+id/wrongbutton8"
+        android:layout_width="275dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/help" />
+
+    <ImageButton
+        android:id="@+id/helpbutton4"
+        android:layout_width="392dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/fish" />
+</RelativeLayout>

@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class gameover extends AppCompatActivity {
+public class answer extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gameover);
-        ImageButton nextpage=findViewById(R.id.gameover);
+        setContentView(R.layout.activity_answer);
+        ImageButton nextpage=findViewById(R.id.main4);
         nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i;
-                i = new Intent(gameover.this, MainActivity4.class);
+                i = new Intent(answer.this, hardtwo.class);
                 startActivity(i);
             }
         });

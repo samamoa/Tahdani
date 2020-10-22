@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".hard">
 
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hhhhhard" />
+
+    <ImageButton
+        android:id="@+id/wrongbutton5"
+        android:layout_width="347dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/a" />
+
+    <ImageButton
+        android:id="@+id/wrongbutton6"
+        android:layout_width="363dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/b" />
+
+    <ImageButton
+        android:id="@+id/rightbutton4"
+        android:layout_width="314dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/g" />
+
+    <ImageButton
+        android:id="@+id/helpbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/help" />
 </RelativeLayout>

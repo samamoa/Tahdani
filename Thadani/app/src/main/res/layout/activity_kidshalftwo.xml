@@ -43,14 +43,4 @@
         android:backgroundTint="#FFFFFF"
         app:srcCompat="@drawable/kidsanswerfour" />
 
-    <ImageButton
-        android:id="@+id/twentyone"
-        android:layout_width="218dp"
-        android:layout_height="103dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="216dp"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/kidsanswerthree" />
 </RelativeLayout>

@@ -7,28 +7,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class watertwo extends AppCompatActivity {
+public class hhhelp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_watertwo);
-        ImageButton right =findViewById(R.id.rightbutton3);
+        setContentView(R.layout.activity_hhhelp);
+        ImageButton right =findViewById(R.id.imageButton5);
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent o=new Intent(watertwo.this,bravothree.class);
+                Intent o=new Intent(hhhelp.this,answer.class);
                 startActivity(o);
             }
         });
-        ImageButton w =findViewById(R.id.wrongbutton4);
-        w.setOnClickListener(new View.OnClickListener() {
+        ImageButton gameover =findViewById(R.id.rightbutton2);
+        gameover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent o=new Intent(watertwo.this,gameover.class);
+                Intent o=new Intent(hhhelp.this,tryagain.class);
                 startActivity(o);
             }
         });
-
     }
 }

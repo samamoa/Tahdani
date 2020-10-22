@@ -13,12 +13,11 @@ public class halftwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halftwo);
-        ImageButton half =findViewById(R.id.yyyyes);
-        half.setOnClickListener(new View.OnClickListener() {
+        ImageButton right =findViewById(R.id.yyyyes);
+        right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(halftwo.this,bravo.class);
-                i.putExtra("level","half two");
+                Intent i=new Intent(halftwo.this,bravofour.class);
                 startActivity(i);
             }
         });
