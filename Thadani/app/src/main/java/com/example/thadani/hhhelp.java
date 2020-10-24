@@ -26,7 +26,7 @@ public class hhhelp extends AppCompatActivity {
         gameover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent o=new Intent(hhhelp.this,nexttimebutton.class);
+                Intent o=new Intent(hhhelp.this,tryagain.class);
                 startActivity(o);
             }
         });

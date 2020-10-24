@@ -22,7 +22,7 @@
         android:layout_width="174dp"
         android:layout_height="96dp"
 
-       android:layout_marginTop="370dp"
+       android:layout_marginTop="380dp"
        android:layout_marginStart="104dp"
         android:backgroundTint="#FFFFFF"
         android:scaleType="fitXY"
@@ -52,13 +52,14 @@
 
     <ImageView
         android:id="@+id/helpbutton2"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/help"
         android:layout_width="122dp"
         android:layout_height="72dp"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="125dp"
         android:layout_marginTop="600dp"
-        android:scaleType="fitXY"/>
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/help" />
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="166dp"

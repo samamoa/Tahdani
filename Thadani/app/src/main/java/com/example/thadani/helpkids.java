@@ -18,7 +18,7 @@ public class helpkids extends AppCompatActivity {
         answer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(helpkids.this, nexttimebutton.class);
+                Intent p = new Intent(helpkids.this, tryagain.class);
                 startActivity(p);
             }
         });

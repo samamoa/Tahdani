@@ -25,7 +25,6 @@
         <activity android:name=".watertwo" />
         <activity android:name=".water" />
         <activity android:name=".hardanswertwo" />
-        <activity android:name=".nexttimebutton" />
         <activity android:name=".answerhard" />
         <activity android:name=".helpkidstwo" />
         <activity android:name=".kidshardtwo" />
