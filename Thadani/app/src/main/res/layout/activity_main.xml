@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDF9F9"
-    tools:context=".MainActivity" >
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,15 +18,15 @@
         android:layout_width="251dp"
         android:layout_height="53dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="360dp"
         app:srcCompat="@drawable/nt" />
 
     <EditText
         android:id="@+id/nickname"
         android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/name"
         android:ems="10"
         android:hint=""
@@ -38,9 +38,9 @@
         android:id="@+id/imageButton"
         android:layout_width="269dp"
         android:layout_height="74dp"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="77dp"
         android:layout_marginTop="500dp"
-        app:srcCompat="@drawable/buttonxml"
-        android:background="@drawable/button"  />
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/buttonxml" />
 
 </RelativeLayout>

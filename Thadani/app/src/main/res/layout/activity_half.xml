@@ -8,24 +8,54 @@
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="wrap_content"
+        android:layout_width="398dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/queshalf" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/half"
-        android:layout_width="382dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="338dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="500dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/youseef" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/youseef"
+        android:layout_marginStart="40dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/half2"
-        android:layout_width="386dp"
+        android:layout_width="336dp"
         android:layout_height="98dp"
         android:layout_marginTop="400dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/mousa" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mousa"
+        android:layout_marginStart="40dp"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
 
 </RelativeLayout>

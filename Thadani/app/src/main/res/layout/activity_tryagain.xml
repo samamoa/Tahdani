@@ -5,17 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tryagain">
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="match_parent"
-        android:layout_height="636dp"
-        app:srcCompat="@drawable/frame" />
 
-    <ImageButton
-        android:id="@+id/oops"
+
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/nexttime" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/frame" />
+
+    <ImageView
+        android:id="@+id/oops"
+        android:layout_width="219dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="340dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/tttt" />
+
 
 </RelativeLayout>

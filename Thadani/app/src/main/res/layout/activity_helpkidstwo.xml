@@ -6,21 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".helpkidstwo">
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/helpbutton" />
+        app:srcCompat="@drawable/helpbutton"
+        android:scaleType="fitXY"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="359dp"
+        android:layout_marginTop="400dp"
         android:layout_marginEnd="69dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/helpbuttontwo" />
+        app:srcCompat="@drawable/helpbuttontwo"
+        android:scaleType="fitXY"
+        android:layout_marginStart="50dp" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
+
 </RelativeLayout>

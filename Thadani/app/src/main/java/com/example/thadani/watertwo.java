@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class watertwo extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class watertwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_watertwo);
-        ImageButton right =findViewById(R.id.rightbutton3);
+        ImageView right =findViewById(R.id.rightbutton3);
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -21,7 +22,7 @@ public class watertwo extends AppCompatActivity {
                 startActivity(o);
             }
         });
-        ImageButton w =findViewById(R.id.wrongbutton4);
+        ImageView w =findViewById(R.id.wrongbutton4);
         w.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class MainActivity7 extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class MainActivity7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main7);
-        ImageButton startthree =findViewById(R.id.startbutton3);
+        ImageView startthree =findViewById(R.id.startbutton3);
         startthree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

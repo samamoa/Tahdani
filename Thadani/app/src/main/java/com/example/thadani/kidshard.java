@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class kidshard extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class kidshard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kidshard);
-        ImageButton help =findViewById(R.id.helpbutton);
+        ImageView help =findViewById(R.id.helpbutton);
         help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -21,7 +22,7 @@ public class kidshard extends AppCompatActivity {
                 startActivity(m);
             }
         });
-        ImageButton hard =findViewById(R.id.hardbutton2);
+        ImageView hard =findViewById(R.id.hardbutton2);
         hard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,7 +30,7 @@ public class kidshard extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        ImageButton wrong =findViewById(R.id.hardbutton);
+        ImageView wrong =findViewById(R.id.hardbutton);
         wrong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,7 +38,7 @@ public class kidshard extends AppCompatActivity {
                 startActivity(u);
             }
         });
-        ImageButton wrongtwo =findViewById(R.id.hardbutton3);
+        ImageView wrongtwo =findViewById(R.id.hardbutton3);
         wrongtwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -10,33 +10,66 @@
         android:id="@+id/imageView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/hhhhhard" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/hhhhhard"
+        android:layout_marginTop="110dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/wrongbutton5"
-        android:layout_width="347dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="308dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="300dp"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/a" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/wrongbutton6"
-        android:layout_width="363dp"
-        android:layout_height="101dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="311dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="380dp"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/b" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/rightbutton4"
-        android:layout_width="314dp"
-        android:layout_height="98dp"
-        android:layout_marginTop="360dp"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/g" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/helpbutton3"
-        android:layout_width="wrap_content"
-        android:layout_height="103dp"
-        android:layout_marginTop="500dp"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="600dp"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/help" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
+
+
 </RelativeLayout>

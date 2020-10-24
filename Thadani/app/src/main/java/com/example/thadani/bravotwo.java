@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class bravotwo extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class bravotwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bravotwo);
-        ImageButton nextpage=findViewById(R.id.next);
+        ImageView nextpage=findViewById(R.id.next);
         nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

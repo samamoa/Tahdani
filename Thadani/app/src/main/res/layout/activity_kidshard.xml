@@ -9,58 +9,81 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="47dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/kidshard" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/hardbutton"
-        android:layout_width="match_parent"
-        android:layout_height="153dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="362dp"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/answerkidshard" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/answerkidshard"
+        android:layout_marginTop="350dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/hardbutton2"
-        android:layout_width="match_parent"
-        android:layout_height="208dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="201dp"
+        android:layout_width="272dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/answerkidshardone" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/answerkidshardone"
+        android:layout_marginTop="430dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/hardbutton3"
-        android:layout_width="407dp"
-        android:layout_height="96dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="173dp"
+        android:layout_width="280dp"
+        android:layout_height="95dp"
+
+
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="70dp"
+
         android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/answerkidshardtwo" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/helpbutton"
-        android:layout_width="wrap_content"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/help" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="59dp"
-        android:layout_marginBottom="56dp"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/help" />
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
 </RelativeLayout>

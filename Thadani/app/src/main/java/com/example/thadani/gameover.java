@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class gameover extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class gameover extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gameover);
-        ImageButton nextpage=findViewById(R.id.gameover);
+        ImageView nextpage=findViewById(R.id.gameover);
         nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

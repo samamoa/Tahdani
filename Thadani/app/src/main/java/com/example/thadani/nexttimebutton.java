@@ -17,7 +17,7 @@ public class nexttimebutton extends AppCompatActivity {
         wishluck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(nexttimebutton.this, gameover.class);
+                Intent p = new Intent(nexttimebutton.this, MainActivity4.class);
                 startActivity(p);
             }
         });

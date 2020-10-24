@@ -28,16 +28,20 @@
         android:layout_marginBottom="0dp"
         app:srcCompat="@drawable/tcv" />
 
-    <ImageButton
+
+    <ImageView
         android:id="@+id/startbutton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="269dp"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/yallll" />
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="290dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/yallll"
+        android:backgroundTint="#FFFFFF" />
+
+
 
 </RelativeLayout>

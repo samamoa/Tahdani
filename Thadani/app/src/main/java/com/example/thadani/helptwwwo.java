@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class helptwwwo extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class helptwwwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_helptwwwo);
-        ImageButton right =findViewById(R.id.imageButton8);
+        ImageView right =findViewById(R.id.imageButton8);
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -21,7 +22,7 @@ public class helptwwwo extends AppCompatActivity {
                 startActivity(o);
             }
         });
-        ImageButton gameover =findViewById(R.id.imageButton7);
+        ImageView gameover =findViewById(R.id.imageButton7);
         gameover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

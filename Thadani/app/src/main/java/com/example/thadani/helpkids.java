@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class helpkids extends AppCompatActivity {
 
@@ -13,19 +14,19 @@ public class helpkids extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_helpkids);
-        ImageButton answer = findViewById(R.id.chancebutton);
+        ImageView answer = findViewById(R.id.chancebutton);
         answer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(helpkids.this, kidshardtwo.class);
+                Intent p = new Intent(helpkids.this, nexttimebutton.class);
                 startActivity(p);
             }
         });
-        ImageButton nexttime = findViewById(R.id.chancebutton2);
+        ImageView nexttime = findViewById(R.id.chancebutton2);
         nexttime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent p = new Intent(helpkids.this, gameover.class);
+                Intent p = new Intent(helpkids.this, answerhard.class);
                 startActivity(p);
             }
         });

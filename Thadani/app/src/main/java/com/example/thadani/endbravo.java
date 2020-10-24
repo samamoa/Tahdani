@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class endbravo extends AppCompatActivity {
 
@@ -13,12 +14,12 @@ public class endbravo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_endbravo);
-        ImageButton nextpage=findViewById(R.id.main4);
+        ImageView nextpage=findViewById(R.id.main4);
         nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i;
-                i = new Intent(endbravo.this, MainActivity4.class);
+                i = new Intent(endbravo.this, MainActivity.class);
                 startActivity(i);
             }
         });

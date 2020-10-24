@@ -15,7 +15,8 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="42dp"
-        app:srcCompat="@drawable/frame" />
+        app:srcCompat="@drawable/frame"
+        android:scaleType="fitXY"/>
 
     <ImageButton
         android:id="@+id/wishluck"
@@ -27,5 +28,6 @@
         android:layout_marginEnd="87dp"
         android:layout_marginBottom="301dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/nexttime" />
+        app:srcCompat="@drawable/nexttime"
+        android:scaleType="fitXY"/>
 </RelativeLayout>

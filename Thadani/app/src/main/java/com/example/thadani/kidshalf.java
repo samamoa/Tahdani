@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class kidshalf extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class kidshalf extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kidshalf);
-        ImageButton right =findViewById(R.id.rightbutton);
+        ImageView right =findViewById(R.id.rightbutton);
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -21,7 +22,7 @@ public class kidshalf extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        ImageButton wrong =findViewById(R.id.wrongbutton);
+        ImageView wrong =findViewById(R.id.wrongbutton);
       wrong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -16,7 +16,7 @@ public class MainActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
-        ImageView kids=findViewById(R.id.imageView3);
+        ImageView kids=findViewById(R.id.babybader);
         kids.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
                 startActivity(nextTwo);
             }
         });
-        ImageView bigger=findViewById(R.id.imageView4);
+        ImageView bigger=findViewById(R.id.bader);
         bigger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

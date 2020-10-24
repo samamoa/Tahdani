@@ -14,50 +14,69 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="53dp"
-        app:srcCompat="@drawable/kidshardtwo" />
+        app:srcCompat="@drawable/kidshardtwo"
+        android:scaleType="fitXY"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/wronganswer"
-        android:layout_width="241dp"
-        android:layout_height="107dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="430dp"
+        android:layout_width="174dp"
+        android:layout_height="96dp"
+
+       android:layout_marginTop="370dp"
+       android:layout_marginStart="104dp"
         android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/answerkidshardfive" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/yeah"
-        android:layout_width="wrap_content"
-        android:layout_height="102dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="238dp"
-        android:layout_marginBottom="317dp"
+        android:layout_width="176dp"
+        android:layout_height="93dp"
+
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="470dp"
         android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/answerkidshardthree" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/wronganswer2"
-        android:layout_width="163dp"
-        android:layout_height="107dp"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/answerkidshardfour"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="104dp"/>
+
+    <ImageView
+        android:id="@+id/helpbutton2"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/help"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="600dp"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="214dp"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/answerkidshardfour" />
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
 
-    <ImageButton
-        android:id="@+id/helpbutton2"
-        android:layout_width="230dp"
-        android:layout_height="108dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-33dp"
-        android:layout_marginBottom="205dp"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/help" />
 </RelativeLayout>

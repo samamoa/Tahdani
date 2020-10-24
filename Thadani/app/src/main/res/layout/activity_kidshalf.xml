@@ -9,35 +9,60 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="412dp"
+        android:layout_height="183dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="137dp"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/kidshalf" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/rightbutton"
         android:layout_width="match_parent"
-        android:layout_height="122dp"
+        android:layout_height="119dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="431dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="200dp"
         android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/kidsanswer" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/wrongbutton"
-        android:layout_width="388dp"
-        android:layout_height="102dp"
+        android:layout_width="301dp"
+        android:layout_height="110dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="341dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="107dp"
         android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/kidsanswertwo" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
 
 </RelativeLayout>

@@ -10,37 +10,67 @@
         android:id="@+id/imageView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dodah" />
+        app:srcCompat="@drawable/dodah"
+        android:layout_marginTop="100dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/rightbutton5"
-        android:layout_width="386dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="289dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="380dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/big" />
+        app:srcCompat="@drawable/big"
+        android:layout_marginStart="70dp"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/wrongbutton7"
-        android:layout_width="match_parent"
-        android:layout_height="76dp"
-        android:layout_marginTop="280dp"
+        android:layout_width="309dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="460dp"
         android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        android:layout_marginStart="50dp"
         app:srcCompat="@drawable/fishtwo" />
 
-    <ImageButton
-        android:id="@+id/wrongbutton8"
-        android:layout_width="275dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="500dp"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/help" />
-
-    <ImageButton
+    <ImageView
         android:id="@+id/helpbutton4"
-        android:layout_width="392dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="350dp"
         android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/fish" />
+        app:srcCompat="@drawable/help"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="600dp"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/no"
+        android:layout_width="259dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fish"
+        android:layout_marginStart="80dp"/>
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="257dp"
+        app:srcCompat="@drawable/tccv" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/tcv" />
+
 </RelativeLayout>
